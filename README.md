@@ -1,2 +1,177 @@
 # Rodrigo_Pat
 Curriculum_Personal
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículum - Julio Rodrigo Pat Balam</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #1e2a38;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 15px;
+      object-fit: cover;
+    }
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 2.2em;
+    }
+    header p {
+      margin: 5px 0;
+    }
+    nav {
+      background: #2c3e50;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00c3ff;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      border-left: 5px solid #00c3ff;
+      padding-left: 10px;
+      margin-top: 40px;
+      color: #2c3e50;
+    }
+    .section {
+      margin-bottom: 30px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .section:hover {
+      transform: translateY(-3px);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      background: #1e2a38;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="foto_You.jpg" alt="Foto de Julio Rodrigo Pat Balam">
+    <h1>Julio Rodrigo Pat Balam</h1>
+    <p>Ingeniero en Sistemas Computacionales</p>
+    <p>💻 Proactivo, adaptable y orientado a resultados</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#perfil">Perfil</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#educacion">Educación</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#idiomas">Idiomas</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section id="perfil" class="section">
+      <h2>🎯 Perfil</h2>
+      <p>Ingeniero en Sistemas Computacionales con habilidades en desarrollo de software, bases de datos y redes. Proactivo, adaptable y orientado a resultados, con capacidad para aportar soluciones tecnológicas eficientes e innovadoras.</p>
+    </section>
+
+    <section id="experiencia" class="section">
+      <h2>💼 Experiencia</h2>
+      <p><b>Prácticas – Área de Soporte Técnico</b><br>
+         Empresa SACK | Ene 2024 – Jun 2024</p>
+      <ul>
+        <li>Mantenimiento preventivo y correctivo a equipos de cómputo.</li>
+        <li>Configuración de redes locales y resolución de incidencias básicas.</li>
+        <li>Instalación y actualización de software institucional.</li>
+      </ul>
+
+      <p><b>Servicio Social – Proyecto de Investigación: “Análisis de estrategias en ciberseguridad”</b><br>
+         Inst. Tec. Felipe Carrillo Puerto | Ago 2023 – Dic 2025</p>
+      <ul>
+        <li>Colaboración en diseño y documentación de un sistema de control de inventarios.</li>
+        <li>Participación en estrategias de ciberseguridad.</li>
+      </ul>
+    </section>
+
+    <section id="educacion" class="section">
+      <h2>🎓 Educación</h2>
+      <ul>
+        <li><b>Cbetis 28</b> – Título Profesional y Certificado</li>
+        <li><b>Colegio Carlos Monsiváis</b> – Certificado</li>
+      </ul>
+    </section>
+
+    <section id="habilidades" class="section">
+      <h2>🛠 Habilidades</h2>
+      <ul>
+        <li>Diseño y edición</li>
+        <li>Trabajo en equipo</li>
+        <li>Solución de problemas</li>
+        <li>Excel y Word</li>
+        <li>Disponibilidad para viajar</li>
+      </ul>
+    </section>
+
+    <section id="idiomas" class="section">
+      <h2>🌐 Idiomas</h2>
+      <ul>
+        <li>Español (Nativo)</li>
+        <li>Inglés (30% - Básico)</li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="section">
+      <h2>📞 Contacto</h2>
+      <p><b>Teléfono:</b> (+52) 987-564-9047</p>
+      <p><b>Email:</b> patbalamrodrigo@gmail.com</p>
+      <p><b>Dirección:</b> 48 entre 87 y 89 Col. Plan de Ayala</p>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 - Currículum de Julio Rodrigo Pat Balam
+  </footer>
+</body>
+</html>
